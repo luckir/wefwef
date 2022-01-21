@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  background: #222222;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header,
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  margin-right: 41px;
+}
+
+.Search {
+  padding-top: 5px;
+  align-items: center;
+  margin-right: 859px;
+}
+
+.menu {
+  padding-top: 5px;
+  margin-right: 25px;
+}
+
+.user {
+  margin-right: 42px;
+}
+
+.block1 {
+  height: 764px;
+  background: #f1e4e6;
+  display: flex;
+}
+
+.picture {
+  background-image: url(img/Layer_57-removebg-preview\ 1.png);
+  background-repeat: no-repeat;
+  height: 764px;
+  width: 800px;
+}
+
+.text-block1 {
+  display: flex;
+  align-items: center;
+}
+
+.stick {
+  width: 12px;
+  height: 92px;
+  background: #f16d7f;
+  float: left;
+}
+
+.stick-text {
+  color: black;
+  font-size: 32px;
+  max-width: 377px;
+  margin-left: 16px;
+}
+.stick-text1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.stick-text2 {
+}
+
+.stick-text3 {
+  color: #f16d7f;
+  font-weight: bold;
+}

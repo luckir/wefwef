@@ -1,0 +1,73 @@
+@media screen and (max-width: 769px) {
+  #header {
+    max-width: 769px;
+    display: flex;
+    background: #222222;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  #header-nav {
+    max-width: 769px;
+  }
+  #logo {
+  }
+  #Searcc {
+    margin-right: 424px;
+  }
+
+  #block1 {
+    max-width: 769px;
+    height: 367px;
+    background: #f1e4e6;
+    display: flex;
+  }
+
+  #picture {
+    background-image: url(img/pictuer.png);
+    background-repeat: no-repeat;
+  }
+  #stick {
+    width: 20px;
+    height: 92px;
+  }
+}
+/* -------------------------------------- */
+@media screen and (max-width: 375px) {
+  #header {
+    max-width: 375px;
+    display: flex;
+    background: black;
+    height: 74px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  #logo {
+  }
+
+  #header-nav {
+    max-width: 375px;
+  }
+
+  #Searcc {
+    margin-right: 200px;
+    padding-top: 7px;
+  }
+
+  #menu {
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+  }
+  #user {
+    display: none;
+  }
+  #basket {
+    display: none;
+  }
+  #picture {
+    display: none;
+  }
+}
